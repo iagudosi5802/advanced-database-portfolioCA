@@ -1,0 +1,15 @@
+Customer
+   |
+   | 1:M
+   |
+Account
+   |
+   | 1:M
+   |
+Transaction
+
+Customer
+   |
+   | 1:M
+   |
+Beneficiary
