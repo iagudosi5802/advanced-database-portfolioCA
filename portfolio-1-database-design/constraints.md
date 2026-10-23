@@ -1,0 +1,10 @@
+Constraints
+Primary Keys
+CustomerID
+AccountID
+TransactionID
+BeneficiaryID
+Foreign Keys
+Account.CustomerID references Customer.CustomerID
+Transaction.AccountID references Account.AccountID
+Beneficiary.CustomerID references Customer.CustomerID
