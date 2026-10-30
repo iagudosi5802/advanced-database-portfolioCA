@@ -1,9 +1,9 @@
 [
   {
     "customerId": 1,
-    "firstName": "Ada",
-    "lastName": "Okafor",
-    "email": "ada.okafor@tealbank.test",
+    "firstName": "Rose",
+    "lastName": "Shawn",
+    "email": "rose.shawn@tealbank.test",
     "phoneNumber": "08010000001",
     "accounts": [
       {
@@ -22,16 +22,16 @@
     "beneficiaries": [
       {
         "beneficiaryId": 201,
-        "beneficiaryName": "David James",
+        "beneficiaryName": "Linda Nwafor",
         "beneficiaryAccountNumber": "2000000001"
       }
     ]
   },
   {
     "customerId": 2,
-    "firstName": "Tunde",
-    "lastName": "Bello",
-    "email": "tunde.bello@tealbank.test",
+    "firstName": "Linda",
+    "lastName": "Nwafor",
+    "email": "linda.nwafor@tealbank.test",
     "phoneNumber": "08010000002",
     "accounts": [
       {
@@ -44,16 +44,16 @@
     "beneficiaries": [
       {
         "beneficiaryId": 202,
-        "beneficiaryName": "Grace Musa",
+        "beneficiaryName": "Jide Owolabi",
         "beneficiaryAccountNumber": "2000000002"
       }
     ]
   },
   {
     "customerId": 3,
-    "firstName": "Chioma",
-    "lastName": "Eze",
-    "email": "chioma.eze@tealbank.test",
+    "firstName": "Jide",
+    "lastName": "Owolabi",
+    "email": "jide.owolabi@tealbank.test",
     "phoneNumber": "08010000003",
     "accounts": [
       {
@@ -66,7 +66,7 @@
     "beneficiaries": [
       {
         "beneficiaryId": 203,
-        "beneficiaryName": "Samuel Obi",
+        "beneficiaryName": "Rose Shawn",
         "beneficiaryAccountNumber": "2000000003"
       }
     ]
