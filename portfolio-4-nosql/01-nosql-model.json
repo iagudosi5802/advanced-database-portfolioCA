@@ -1,0 +1,74 @@
+[
+  {
+    "customerId": 1,
+    "firstName": "Ada",
+    "lastName": "Okafor",
+    "email": "ada.okafor@tealbank.test",
+    "phoneNumber": "08010000001",
+    "accounts": [
+      {
+        "accountId": 101,
+        "accountNumber": "1000000001",
+        "accountType": "Savings",
+        "balance": 150000
+      },
+      {
+        "accountId": 102,
+        "accountNumber": "1000000002",
+        "accountType": "Current",
+        "balance": 75000
+      }
+    ],
+    "beneficiaries": [
+      {
+        "beneficiaryId": 201,
+        "beneficiaryName": "David James",
+        "beneficiaryAccountNumber": "2000000001"
+      }
+    ]
+  },
+  {
+    "customerId": 2,
+    "firstName": "Tunde",
+    "lastName": "Bello",
+    "email": "tunde.bello@tealbank.test",
+    "phoneNumber": "08010000002",
+    "accounts": [
+      {
+        "accountId": 103,
+        "accountNumber": "1000000003",
+        "accountType": "Savings",
+        "balance": 220000
+      }
+    ],
+    "beneficiaries": [
+      {
+        "beneficiaryId": 202,
+        "beneficiaryName": "Grace Musa",
+        "beneficiaryAccountNumber": "2000000002"
+      }
+    ]
+  },
+  {
+    "customerId": 3,
+    "firstName": "Chioma",
+    "lastName": "Eze",
+    "email": "chioma.eze@tealbank.test",
+    "phoneNumber": "08010000003",
+    "accounts": [
+      {
+        "accountId": 104,
+        "accountNumber": "1000000004",
+        "accountType": "Savings",
+        "balance": 95000
+      }
+    ],
+    "beneficiaries": [
+      {
+        "beneficiaryId": 203,
+        "beneficiaryName": "Samuel Obi",
+        "beneficiaryAccountNumber": "2000000003"
+      }
+    ]
+  }
+]
