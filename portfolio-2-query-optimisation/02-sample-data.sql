@@ -2,9 +2,9 @@
 INSERT INTO Customer
     (CustomerID, FirstName, LastName, Email, PhoneNumber)
 VALUES
-    (1, 'Ada', 'Okafor', 'ada.okafor@tealbank.test', '08010000001'),
-    (2, 'Tunde', 'Bello', 'tunde.bello@tealbank.test', '08010000002'),
-    (3, 'Chioma', 'Eze', 'chioma.eze@tealbank.test', '08010000003');
+    (1, 'Rose', 'Shawn', 'rose.shawn@tealbank.test', '08010000001'),
+    (2, 'Linda', 'Nwafor', 'linda.nwafor@tealbank.test', '08010000002'),
+    (3, 'Jide', 'Owolabi', 'jide.owolabi@tealbank.test', '08010000003');
 
 -- Insert accounts
 INSERT INTO Account
@@ -30,10 +30,12 @@ VALUES
 INSERT INTO Beneficiary
     (BeneficiaryID, CustomerID, BeneficiaryName, BeneficiaryAccountNumber)
 VALUES
-    (201, 1, 'David James', '2000000001'),
-    (202, 2, 'Grace Musa', '2000000002'),
-    (203, 3, 'Samuel Obi', '2000000003');
-    SELECT * FROM Customer;
+    (201, 1, 'Linda Nwafor', '2000000001'),
+    (202, 2, 'Jide Owolabi', '2000000002'),
+    (203, 3, 'Rose Shawn', '2000000003');
+
+-- Verify the inserted records
+SELECT * FROM Customer;
 SELECT * FROM Account;
 SELECT * FROM BankTransaction;
 SELECT * FROM Beneficiary;
