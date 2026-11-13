@@ -4,7 +4,7 @@ Student ID: 301905802
 Case Study: Teal Digital Bank
 GitHub Repository: https://github.com/iagudosi5802/advanced-database-portfolioCA.git 
  
-Case Study
+Case Study 
 Teal Digital Bank is a simulated digital banking platform supporting customer accounts, fund transfers, transaction history and beneficiary management. The same case study was used throughout the five portfolio activities.
 ________________________________________
 Portfolio 1: Database Design and Modelling
@@ -18,8 +18,7 @@ Portfolio 2: Query Processing and Optimisation
 The relational database was implemented using PostgreSQL in DB Fiddle with fictional customer, account and transaction data. SQL queries demonstrated JOIN, WHERE, SUM, GROUP BY and ORDER BY.
 EXPLAIN ANALYZE was used to examine query execution, and an index was created on BankTransaction. AccountID. The exercise showed that indexes can improve retrieval on larger datasets, although PostgreSQL may still choose a sequential scan for very small tables.
 Evidence: Query execution/optimization result.
-<img width="360" height="242" alt="image" src="https://github.com/user-attachments/assets/79d0219b-83b1-47f0-b334-bcf62c7e6d85" />
-<img width="343" height="229" alt="image" src="https://github.com/user-attachments/assets/9a1637fd-011f-4e60-87f3-84d962794481" />
+<img width="360" height="242" alt="image" src="https://github.com/user-attachments/assets/79d0219b-83b1-47f0-b334-bcf62c7e6d85" /><img width="343" height="229" alt="image" src="https://github.com/user-attachments/assets/9a1637fd-011f-4e60-87f3-84d962794481" />
 
 ________________________________________
 Portfolio 3: Transactions and Concurrency
